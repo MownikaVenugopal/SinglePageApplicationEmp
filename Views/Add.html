@@ -1,0 +1,46 @@
+﻿<h1 class="text-center text-danger">Add Employee</h1>
+<br/>
+<div class="row">
+       <div class="col-md-6 col-md-offset-3">
+           <form>
+               <div class="form-group">
+                   <label for="inputEmail">First Name</label>
+                   <input type="text" ng-model="first_name" class="form-control input-lg" placeholder="First Name" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Last Name</label>
+                    <input type="text" ng-model="last_name" class="form-control input-lg" placeholder="Last name" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Address </label>
+                   <input type="text" ng-model="address" class="form-control input-lg" placeholder="Address" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Phone number</label>
+                   <input type="tel" ng-model="phone_number" class="form-control input-lg" placeholder="Phone Number" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Email Address</label>
+                   <input type="email" ng-model="EmailAddress" class="form-control input-lg" placeholder="Email Address" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Gender</label>
+                   <input type="text" ng-model="Gender" class="form-control input-lg" placeholder="Gender" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Comments</label>
+                   <input type="text" ng-model="Comments" class="form-control input-lg" placeholder="Comments" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Password</label>
+                   <input type="text" ng-model="password" class="form-control input-lg" placeholder="Password" />
+               </div>
+               <div class="form-group">
+                   <label for="inputEmail">Date Of Birth</label>
+                   <input type="datetime" ng-model="Date_of_Birth" class="form-control input-lg" placeholder="mm/dd/yy" />
+               </div>
+
+               <button ng-click="addEmp()" class="btn btn-info form-control input-lg">Save</button>
+           </form>
+       </div>
+</div>
